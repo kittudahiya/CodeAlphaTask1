@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(255, 248, 220, 0.469);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .converter {
+    margin: 20px auto;
+    max-width: 300px;
+  }
+  
+  .converter label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .converter input[type="text"],
+  .converter input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .converter input[type="submit"] {
+    background-color: #075055;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .result {
+    text-align: center;
+    font-size: 18px;
+  }
+  
